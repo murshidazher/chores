@@ -1,0 +1,20 @@
+# exclude .gitignore and similar from the generated tarball
+.git* export-ignore
+
+# exclude folder
+.github export-ignore
+
+# exclude CI configurations (useless outside the repo)
+.babelrc export-ignore
+.editorconfig export-ignore
+.eslintrc.js export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+.travis.yml export-ignore
+.hound.yml export-ignore
+.npmrc export-ignore
+.prettierrc export-ignore
+CHANGELOG.md export-ignore
+codecov.yml export-ignore
+package.json export-ignore
+yarn.lock export-ignore
