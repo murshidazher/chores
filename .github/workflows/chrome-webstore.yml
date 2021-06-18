@@ -1,4 +1,4 @@
-# .github/workflows/push.yml
+# .github/workflows/chrome-webstore.yml
 
 ## name of our action
 name: Release to Chrome Webstore
