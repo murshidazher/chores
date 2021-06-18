@@ -21,7 +21,7 @@
 
 A quick introduction of the minimal setup you need to get a up & running.
 
-- Download the extension from chrome and install it your `chromium` browser.
+- Download the extension from chrome and install it to your `chromium` browser.
 - Give the necessary permission for download folder.
 - `Chores` will take care of the rest and automatically navigating to correct sub folders before downloading any files.
 
