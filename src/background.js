@@ -17,10 +17,10 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
         chrome.scripting
           .executeScript({
             target: { tabId: tabId },
-            files: ['./foreground.js', './declutter.js'],
+            files: ['./foreground.js'],
           })
           .then(() => {
-            console.log('INJECTED THE FOREGROUND AND DECLUTTER SCRIPT.');
+            console.log('INJECTED THE FOREGROUND.');
           });
       })
       .catch(err => console.log(err));
